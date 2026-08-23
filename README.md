@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Terraform Cloud / HCP Terraform](https://www.hashicorp.com/products/terraform)**  
-
-  HashiCorp’s official managed platform for remote state, run orchestration, private registries, and team collaboration around Terraform.
-
-
-
-- **[Spacelift](https://spacelift.io/)**  
-
-  Multi-IaC orchestration platform supporting Terraform, OpenTofu, Terragrunt, Pulumi, CloudFormation, Kubernetes, and Ansible with strong policy-as-code and stack dependencies.
-
-
-
-- **[Scalr](https://scalr.com/)**  
-
-  Pure-play Terraform/OpenTofu TACO focused on governance, OPA policies, remote operations, and predictable per-run pricing.
-
-
-
-- **[env0 (env zero)](https://www.env0.com/)**  
-
-  Multi-IaC management platform with FinOps visibility, supporting Terraform, OpenTofu, Terragrunt, Pulumi, and more.
-
-
-
-- **[Atlantis](https://www.runatlantis.io/)**  
-
-  (Listed here for completeness; primarily open-source — see Open-Source section.) Self-hosted Terraform pull-request automation that many teams also run as a managed service pattern.
-
-
-
-- **[Firefly](https://www.firefly.ai/)**  
-
-  Cloud asset management and IaC platform that helps discover, codify, and manage infrastructure with Terraform-related workflows.
-
-
-
-- **[Brainboard](https://www.brainboard.co/)**  
-
-  Visual infrastructure-as-code design and automation platform that generates and manages Terraform.
-
-
-
-- **[Massdriver](https://www.massdriver.cloud/)**  
-
-  Platform engineering and infrastructure orchestration tool with Terraform support and developer self-service.
-
-
-
-- **[Digger](https://digger.dev/)**  
-
-  (Primarily open-source with optional cloud features — see Open-Source section.) IaC orchestration that runs Terraform/OpenTofu inside your existing CI.
-
-
-
-- **[OpsLevel](https://www.opslevel.com/)**  
-
-  Service catalog and platform engineering tool that often integrates with Terraform workflows for ownership and maturity tracking.
+| Platform | Description | Starting Pricing | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[Terraform Cloud / HCP Terraform](https://www.hashicorp.com/products/terraform)** | HashiCorp’s official managed platform for remote state, run orchestration, private registries, and team collaboration around Terraform. | Starts at **$0.10 / managed resource / month** (Essentials tier; Standard tier at $0.47 / resource / month) | **Free forever** for up to 500 managed resources, 1 concurrent run, unlimited users, and 1 policy set (up to 5 policies); includes $500 HCP trial credits for paid tiers. |
+| **[Spacelift](https://spacelift.io/)** | Multi-IaC orchestration platform supporting Terraform, OpenTofu, Terragrunt, Pulumi, CloudFormation, Kubernetes, and Ansible with strong policy-as-code and stack dependencies. | Starts at **$20,000 / year** (Starter+ tier billed annually) | **Free forever** for up to 2 users and 1 public worker (1 concurrent run); 14-day free trial on paid features. |
+| **[Scalr](https://scalr.com/)** | Pure-play Terraform/OpenTofu TACO focused on governance, OPA policies, remote operations, and predictable per-run pricing. | Starts at **$0.99 / run** (or **$99 / month** for 100 prepaid runs package) | **Free forever** for up to 50 runs/month, 5 concurrent runs, unlimited users, workspaces, and resources under management. |
+| **[env0 (env zero)](https://www.env0.com/)** | Multi-IaC management platform with FinOps visibility, supporting Terraform, OpenTofu, Terragrunt, Pulumi, and more. | Starts at **$1,500 / month** (Cloud Compass tier) | **Free forever** for up to 250 runs/month and 30 active environments; 14-day free trial available for advanced features. |
+| **[Atlantis](https://www.runatlantis.io/)** | Self-hosted Terraform pull-request automation that many teams run as a managed service pattern (primarily open-source — see Open-Source section). | **Free** (Open-Source / Self-Hosted) | **Free forever** (100% open-source under Apache 2.0; unlimited users, runs, and resources; self-hosted compute costs apply). |
+| **[Firefly](https://www.firefly.ai/)** | Cloud asset management and IaC platform that helps discover, codify, and manage infrastructure with Terraform-related workflows. | Starts at **$2,499 / month** (Essential tier via AWS Marketplace, billed annually) | **Free forever** for up to 500 managed cloud resources / assets; 14-day free trial available for paid tiers. |
+| **[Brainboard](https://www.brainboard.co/)** | Visual infrastructure-as-code design and automation platform that generates and manages Terraform. | Starts at **$99 / user / month** (Pro plan) | **Free forever** for individual use (unlimited cloud architectures and Terraform code generation); 21-day free trial for Pro features. |
+| **[Massdriver](https://www.massdriver.cloud/)** | Platform engineering and infrastructure orchestration tool with Terraform support and developer self-service. | Starts at **$999 / month for 15 seats** (Business tier billed annually) | **14 to 30-day free trial** with full platform and POC access (no permanent free tier). |
+| **[Digger](https://digger.dev/)** | IaC orchestration that runs Terraform/OpenTofu inside your existing CI (GitHub Actions, GitLab CI, etc.). | Starts at **$49 / user / month** (Digger Pro / OpenTaco, min. 5 seats; Enterprise from $3,000 / month) | **Free forever Community Edition** (100% open-source, runs in your CI with unlimited runs/resources); 14-day free trial for Pro. |
+| **[OpsLevel](https://www.opslevel.com/)** | Service catalog and platform engineering tool that often integrates with Terraform workflows for ownership and maturity tracking. | Starts at **$10,000 / year** (~$833 / month for up to 20 users / ~$25–$45 / developer / month) | **14 to 30-day free trial** / POC with full catalog and check integration access (no permanent free tier). |
 
 
 
