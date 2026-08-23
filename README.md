@@ -1,6 +1,6 @@
 # Awesome-Ticketing-Platform
 
-# Top Ticketing Platform Ecosystem
+## Top Ticketing Platform Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Event Ticketing, Registration, Box Office, Attendee Management & Event Operations*  
