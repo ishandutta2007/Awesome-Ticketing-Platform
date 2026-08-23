@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- CSS Animations -->
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-10px) rotate(2deg); }
+      }
+      @keyframes floatFast {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-14px) rotate(-3deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.75; transform: scale(1.06); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -100; }
+      }
+      @keyframes orbitRotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      .floating-node-1 { animation: floatSlow 6s ease-in-out infinite; }
+      .floating-node-2 { animation: floatFast 5s ease-in-out infinite; }
+      .pulse-circle { animation: pulseGlow 4s ease-in-out infinite; transform-origin: center; }
+      .circuit-line { stroke-dasharray: 8, 8; animation: dashMove 20s linear infinite; }
+      .orbit-ring { transform-origin: 1020px 180px; animation: orbitRotate 25s linear infinite; }
+      .orbit-ring-rev { transform-origin: 1020px 180px; animation: orbitRotate 18s linear infinite reverse; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Grid overlay -->
+  <g stroke="#ffffff" stroke-width="1" stroke-opacity="0.04">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="1020" cy="180" r="140" fill="#6366f1" class="pulse-circle" opacity="0.4" filter="url(#softGlow)" />
+  <circle cx="200" cy="80" r="100" fill="#ec4899" class="pulse-circle" opacity="0.25" filter="url(#softGlow)" />
+
+  <!-- Dynamic Circuit Lines -->
+  <g stroke="#818cf8" stroke-width="2" opacity="0.3" class="circuit-line" fill="none">
+    <path d="M 50,180 L 180,180 L 220,130 L 450,130 L 490,90 L 700,90" />
+    <path d="M 120,290 L 300,290 L 350,230 L 620,230 L 660,280 L 900,280" />
+    <path d="M 850,90 L 950,150 L 1150,150" />
+  </g>
+
+  <!-- Left Side Badges / Pills -->
+  <g class="floating-node-1">
+    <rect x="70" y="55" width="130" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <circle cx="86" cy="71" r="5" fill="#10b981" />
+    <text x="100" y="76" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">IaC GITOPS</text>
+  </g>
+
+  <g class="floating-node-2">
+    <rect x="70" y="270" width="160" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+    <circle cx="86" cy="286" r="5" fill="#38bdf8" />
+    <text x="100" y="291" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">TACOs PLATFORMS</text>
+  </g>
+
+  <!-- Main Hero Text -->
+  <g transform="translate(80, 0)">
+    <rect x="0" y="105" width="230" height="28" rx="14" fill="#312e81" stroke="#6366f1" stroke-width="1" />
+    <text x="15" y="124" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1">⚡ CURATED ECOSYSTEM</text>
+
+    <text x="0" y="180" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-1">
+      Terraform &amp; OpenTofu
+    </text>
+    <text x="0" y="228" fill="url(#primaryGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" filter="url(#glow)">
+      Automation Platforms (TACOs)
+    </text>
+
+    <text x="0" y="268" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="400">
+      The definitive guide to SaaS solutions &amp; Open-Source tools for IaC Orchestration &amp; Drift Detection
+    </text>
+  </g>
+
+  <!-- Right Graphic: Orbiting Infrastructure Cluster -->
+  <g class="orbit-ring">
+    <circle cx="1020" cy="180" r="105" fill="none" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="6, 8" opacity="0.6" />
+    <circle cx="915" cy="180" r="8" fill="#6366f1" filter="url(#glow)" />
+    <circle cx="1125" cy="180" r="6" fill="#ec4899" filter="url(#glow)" />
+  </g>
+
+  <g class="orbit-ring-rev">
+    <circle cx="1020" cy="180" r="70" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4, 6" opacity="0.5" />
+    <circle cx="1020" cy="110" r="7" fill="#38bdf8" filter="url(#glow)" />
+    <circle cx="1020" cy="250" r="5" fill="#a855f7" filter="url(#glow)" />
+  </g>
+
+  <!-- Center Hexagon / Logo Cluster -->
+  <g transform="translate(1020, 180)">
+    <circle cx="0" cy="0" r="42" fill="#1e1b4b" stroke="#6366f1" stroke-width="2.5" filter="url(#glow)" />
+    <path d="M -16,-18 L -6,-12 L -6,2 L -16,-4 Z" fill="#844FBA" />
+    <path d="M -4,-11 L 6,-17 L 16,-11 L 16,3 L 6,9 L -4,3 Z" fill="#5C4EE5" />
+    <path d="M -16,-1 L -6,5 L -6,19 L -16,13 Z" fill="#6366f1" />
+    <path d="M -4,6 L 6,12 L 6,26 L -4,20 Z" fill="#FFDA55" />
+  </g>
+
+  <!-- Border Highlight -->
+  <rect width="1200" height="360" rx="16" fill="none" stroke="#334155" stroke-width="1.5" opacity="0.7" />
+</svg>
