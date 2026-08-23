@@ -10,7 +10,7 @@ This repository tracks notable **SaaS/hosted platforms** and **open-source proje
 
 **Examples** include Eventbrite, Ticket Tailor, Universe, Tito, TicketSpice, Humanitix, Yapsody, Billetto, Brown Paper Tickets, and ThunderTix.
 
-**Open-source emphasis**: This section is heavily expanded with open-source and self-hostable ticketing systems covering online ticket sales, event registration, QR-code check-in, attendee management, event discovery, box-office operations, payments, seating, and event analytics. **pretix**, **Hi.Events**, and **Attendize** are among the strongest dedicated open-source options. pretix is a mature open-source ticket shop used for conferences, festivals, concerts, exhibitions, workshops, and other events. Hi.Events provides a modern self-hosted ticketing and event-management stack with ticket sales, QR check-in, refunds, analytics, REST APIs, and embeddable widgets. :contentReference[oaicite:0]{index=0}
+**Open-source emphasis**: This section is heavily expanded with open-source and self-hostable ticketing systems covering online ticket sales, event registration, QR-code check-in, attendee management, event discovery, box-office operations, payments, seating, and event analytics. **pretix**, **Hi.Events**, and **Attendize** are among the strongest dedicated open-source options. pretix is a mature open-source ticket shop used for conferences, festivals, concerts, exhibitions, workshops, and other events. Hi.Events provides a modern self-hosted ticketing and event-management stack with ticket sales, QR check-in, refunds, analytics, REST APIs, and embeddable widgets.
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites or project repositories.
 
@@ -25,115 +25,51 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Eventbrite](https://www.eventbrite.com/)**  
-  Major event-management and ticketing platform for creating events, selling tickets, handling registrations, marketing events, and managing attendees.
-
-- **[Ticket Tailor](https://www.tickettailor.com/)**  
-  Flexible online ticketing platform focused on direct ticket sales, customizable checkout, event pages, integrations, and attendee management.
-
-- **[Universe](https://www.universe.com/)**  
-  Event ticketing and registration platform supporting ticket sales, event discovery, reserved/general admission events, marketing, and event management.
-
-- **[Tito](https://ti.to/)**  
-  Event registration and ticketing platform particularly popular with conferences, technology events, workshops, and community events.
-
-- **[TicketSpice](https://www.ticketspice.com/)**  
-  Customizable event ticketing platform offering online ticket sales, event registration, box-office tools, discounts, seating, and attendee management.
-
-- **[Humanitix](https://humanitix.com/)**  
-  Online event ticketing platform supporting event creation, ticket sales, registration, attendee management, payments, and fundraising-oriented events.
-
-- **[Yapsody](https://www.yapsody.com/)**  
-  Event ticketing and box-office platform supporting reserved seating, online sales, venue management, event marketing, and ticket administration.
-
-- **[Billetto](https://billetto.com/)**  
-  Event ticketing and discovery platform for selling tickets, managing registrations, promoting events, and handling attendees.
-
-- **[Brown Paper Tickets](https://www.brownpapertickets.com/)**  
-  Ticketing and event-registration platform supporting online ticket sales, event pages, box-office operations, will-call, and event management.
-
-- **[ThunderTix](https://www.thundertix.com/)**  
-  Box-office and ticketing platform for theaters, performing arts organizations, attractions, venues, and events with reserved seating and event-management capabilities.
-
-- **[Ticketmaster](https://www.ticketmaster.com/)**  
-  Large-scale ticketing and live-entertainment platform supporting primary ticket sales, venue operations, event discovery, digital tickets, and access management.
-
-- **[SeatGeek](https://seatgeek.com/)**  
-  Ticket marketplace and event technology platform providing ticket discovery, digital ticketing, venue tools, and event-management technology.
-
-- **[DICE](https://dice.fm/)**  
-  Digital ticketing and event-discovery platform focused heavily on concerts, nightlife, festivals, and live entertainment.
-
-- **[Eventcube](https://www.eventcube.io/)**  
-  Event-ticketing platform providing customizable event pages, ticket sales, registration, memberships, and venue/event-management functionality.
-
-- **[TicketLeap](https://www.ticketleap.com/)**  
-  Online event-ticketing platform for event creation, ticket sales, registration, attendee management, and reporting.
-
-- **[TryBooking](https://www.trybooking.com/)**  
-  Online booking and ticketing platform supporting events, registrations, payments, seating, memberships, and attendee management.
-
-- **[Ticketbud](https://www.ticketbud.com/)**  
-  Event ticketing platform for creating events, selling tickets, processing payments, and managing attendees.
-
-- **[TicketSource](https://www.ticketsource.us/)**  
-  Online box-office and ticketing platform supporting event creation, seating, ticket sales, box-office operations, and attendee management.
-
-- **[TicketSocket](https://www.ticketsocket.com/)**  
-  Enterprise-oriented ticketing technology for events, venues, attractions, and organizations requiring branded ticketing infrastructure.
-
-- **[EventBookings](https://eventbookings.com/)**  
-  Event-management and ticketing platform for creating events, selling tickets, managing registrations, and collecting attendee information.
-
-- **[Eventzilla](https://www.eventzilla.net/)**  
-  Online event registration and ticketing platform supporting event pages, registration, payments, ticket sales, and attendee management.
-
-- **[RegFox](https://www.regfox.com/)**  
-  Event registration and ticketing platform with customizable registration forms, payments, ticketing, attendee management, and reporting.
-
-- **[Cvent](https://www.cvent.com/)**  
-  Enterprise event-management platform covering registration, ticketing/payment workflows, attendee management, event marketing, and onsite event operations.
-
-- **[Bizzabo](https://www.bizzabo.com/)**  
-  Event-management platform supporting registration, ticketing, attendee experiences, event websites, networking, and event analytics.
-
-- **[Swoogo](https://swoogo.events/)**  
-  Customizable event-registration platform supporting ticketing, attendee management, event websites, registration workflows, and analytics.
-
-- **[Whova](https://whova.com/)**  
-  Event-management platform combining registration, ticketing, attendee engagement, agendas, networking, and event applications.
-
-- **[Eventify](https://eventify.io/)**  
-  Event-management platform with registration, ticketing, event websites, mobile apps, attendee engagement, and event analytics.
-
-- **[TicketSocket](https://www.ticketsocket.com/)**  
-  White-label ticketing technology for organizations operating branded ticketing, event registration, and admission workflows.
-
-- **[SimpleTix](https://www.simpletix.com/)**  
-  Online ticketing platform for museums, attractions, venues, events, classes, and experiences with ticket sales, timed entry, and check-in.
-
-- **[Zeffy](https://www.zeffy.com/)**  
-  Ticketing and event-registration platform particularly aimed at nonprofits, supporting ticket sales, donations, registration, and fundraising.
-
-- **[Ticket Fairy](https://www.ticketfairy.com/)**  
-  Event ticketing and access-control platform for festivals, concerts, nightlife, and live events.
-
-- **[TicketCo](https://ticketco.events/)**  
-  Ticketing and event-commerce platform supporting ticket sales, access control, streaming, and event management.
-
-- **[Pretix Hosted](https://pretix.eu/)**  
-  Managed hosting for the open-source pretix ticketing system, providing hosted event registration and ticketing without requiring self-managed infrastructure.
+| Product | Description | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Eventbrite](https://www.eventbrite.com/)** | Major event-management and ticketing platform for creating events, selling tickets, handling registrations, marketing events, and managing attendees. | 3.7% + $1.79 per paid ticket (US standard fee) | Free forever for free events (unlimited free events & registrations) |
+| **[Ticket Tailor](https://www.tickettailor.com/)** | Flexible online ticketing platform focused on direct ticket sales, customizable checkout, event pages, integrations, and attendee management. | $0.26 / ticket (pre-pay credit bundles) or $0.65 / ticket (pay-as-you-go) | Free forever for free events (unlimited free tickets & events) |
+| **[Universe](https://www.universe.com/)** | Event ticketing and registration platform supporting ticket sales, event discovery, reserved/general admission events, marketing, and event management. | 2.5% + $0.99 per paid ticket | Free forever for free events (unlimited free events & tickets) |
+| **[Tito](https://ti.to/)** | Event registration and ticketing platform particularly popular with conferences, technology events, workshops, and community events. | 3.0% per ticket sold (capped at €25/$25 per ticket; 2.5% for non-profits) | Free forever for free events (unlimited free events & registrations) |
+| **[TicketSpice](https://www.ticketspice.com/)** | Customizable event ticketing platform offering online ticket sales, event registration, box-office tools, discounts, seating, and attendee management. | $0.99 flat fee per paid ticket sold ($0.49 for tickets under $5) | Free for free events when hosting paid events (otherwise $0.99/ticket; unlimited free draft/test mode) |
+| **[Humanitix](https://humanitix.com/)** | Online event ticketing platform supporting event creation, ticket sales, registration, attendee management, payments, and fundraising-oriented events. | 1.2% + $0.79 per paid ticket (100% of platform profits donated to charity) | Free forever for free events (100% free with all features included) |
+| **[Yapsody](https://www.yapsody.com/)** | Event ticketing and box-office platform supporting reserved seating, online sales, venue management, event marketing, and ticket administration. | 1.75% + $0.59 per paid ticket (tiered pass-on or absorb model) | Free forever for free events (first 50 tickets per event completely free) |
+| **[Billetto](https://billetto.com/)** | Event ticketing and discovery platform for selling tickets, managing registrations, promoting events, and handling attendees. | 3.0% + £0.60 / €0.60 per paid ticket (Basic plan) | Free forever for free events (unlimited free events & tickets) |
+| **[Brown Paper Tickets](https://www.brownpapertickets.com/)** | Ticketing and event-registration platform supporting online ticket sales, event pages, box-office operations, will-call, and event management. | $0.99 + 5.0% per paid ticket (includes 24/7 customer support & physical ticket printing) | Free forever for free events (unlimited free events & registrations) |
+| **[ThunderTix](https://www.thundertix.com/)** | Box-office and ticketing platform for theaters, performing arts organizations, attractions, venues, and events with reserved seating and event-management capabilities. | $10/month + $0.79 per ticket (General Admission plan) | 14-day free trial (full feature access; free events included with active plan) |
+| **[Ticketmaster](https://www.ticketmaster.com/)** | Large-scale ticketing and live-entertainment platform supporting primary ticket sales, venue operations, event discovery, digital tickets, and access management. | 10%–15% service fee per ticket + processing (enterprise venue contracts) | Free account setup and free ticket distribution for partner venue accounts |
+| **[SeatGeek](https://seatgeek.com/)** | Ticket marketplace and event technology platform providing ticket discovery, digital ticketing, venue tools, and event-management technology. | 10% seller fee / marketplace fee (SeatGeek Enterprise starts at ~$1.50/ticket) | Free listing and free account registration (no upfront monthly subscription) |
+| **[DICE](https://dice.fm/)** | Digital ticketing and event-discovery platform focused heavily on concerts, nightlife, festivals, and live entertainment. | ~10% platform fee per paid ticket (bundled transparently into ticket face value) | Free to host approved free events with no platform fees upon partner application |
+| **[Eventcube](https://www.eventcube.io/)** | Event-ticketing platform providing customizable event pages, ticket sales, registration, memberships, and venue/event-management functionality. | 5% per ticket (Starter pay-as-you-go) or $99/month + 3% per ticket (Pro plan) | Free forever for free events on Starter plan (no monthly subscription fees) |
+| **[TicketLeap](https://www.ticketleap.com/)** | Online event-ticketing platform for event creation, ticket sales, registration, attendee management, and reporting. | $1.00 + 5.0% per paid ticket ($0.49 flat fee for tickets priced $5 or less) | Free forever for free events (unlimited free tickets and events) |
+| **[TryBooking](https://www.trybooking.com/)** | Online booking and ticketing platform supporting events, registrations, payments, seating, memberships, and attendee management. | 2.5% + $0.50 / 15p per paid ticket sold | Free forever for free events (unlimited free tickets with no monthly fees) |
+| **[Ticketbud](https://www.ticketbud.com/)** | Event ticketing platform for creating events, selling tickets, processing payments, and managing attendees. | 2.0% + $0.99 per paid ticket sold (plus standard card processing) | Free forever for free events (unlimited free events & attendees) |
+| **[TicketSource](https://www.ticketsource.us/)** | Online box-office and ticketing platform supporting event creation, seating, ticket sales, box-office operations, and attendee management. | 4.5% + processing (organizer Stripe) or 7.0% (TicketSource merchant processing) | Free forever for free events (unlimited free ticket sales & box office) |
+| **[TicketSocket](https://www.ticketsocket.com/)** | White-label ticketing technology for organizations operating branded ticketing, event registration, and admission workflows. | $1.50 flat rate per ticket sold (white-label enterprise tier) | 30-day free trial for platform testing and sandbox configuration |
+| **[EventBookings](https://eventbookings.com/)** | Event-management and ticketing platform for creating events, selling tickets, managing registrations, and collecting attendee information. | $0.30 flat fee per paid ticket sold | Free tier includes up to 300 free tickets per year (no monthly fee) |
+| **[Eventzilla](https://www.eventzilla.net/)** | Online event registration and ticketing platform supporting event pages, registration, payments, ticket sales, and attendee management. | $1.50 per ticket (Basic) or 1.9% + $1.50 per ticket (Pro plan) | Free forever for free events (unlimited free event registrations) |
+| **[RegFox](https://www.regfox.com/)** | Event registration and ticketing platform with customizable registration forms, payments, ticketing, attendee management, and reporting. | $0.99 + 1% per paid registration (capped at $4.99 per registrant max) | 14-day free trial in test mode ($0.99 per free registrant on live events) |
+| **[Cvent](https://www.cvent.com/)** | Enterprise event-management platform covering registration, ticketing/payment workflows, attendee management, event marketing, and onsite event operations. | $20,000/year base enterprise platform license + ~$7-$12 per registrant | Guided interactive demo sandbox access (no self-serve free plan) |
+| **[Bizzabo](https://www.bizzabo.com/)** | Event-management platform supporting registration, ticketing, attendee experiences, event websites, networking, and event analytics. | $17,999/year base annual subscription | Guided sandbox demo environment upon request (no self-serve free plan) |
+| **[Swoogo](https://swoogo.events/)** | Customizable event-registration platform supporting ticketing, attendee management, event websites, registration workflows, and analytics. | $11,800/year (starts with 1 full user license and unlimited events) | Guided interactive product demo sandbox (no self-serve free plan) |
+| **[Whova](https://whova.com/)** | Event-management platform combining registration, ticketing, attendee engagement, agendas, networking, and event applications. | 3.0% + $0.99 per paid ticket (event app packages start around $799/event) | Free event test trial demo (test app & agenda sandbox for up to 30 attendees) |
+| **[Eventify](https://eventify.io/)** | Event-management platform with registration, ticketing, event websites, mobile apps, attendee engagement, and event analytics. | $249/year (Register tier, includes 250 attendees; $1 per additional attendee) | 14-day free trial (sandbox access to test event builder and mobile app) |
+| **[SimpleTix](https://www.simpletix.com/)** | Online ticketing platform for museums, attractions, venues, events, classes, and experiences with ticket sales, timed entry, and check-in. | $0.79 + 2.0% per paid ticket (capped at $9.99 max fee per ticket) | Free forever for free events (unlimited free events & attendees) |
+| **[Zeffy](https://www.zeffy.com/)** | Ticketing and event-registration platform particularly aimed at nonprofits, supporting ticket sales, donations, registration, and fundraising. | 100% free ($0 platform fee + $0 processing fee; 100% voluntary donor-funded) | Free forever with unlimited events and tickets for registered 501(c)(3) nonprofits |
+| **[Ticket Fairy](https://www.ticketfairy.com/)** | Event ticketing and access-control platform for festivals, concerts, nightlife, and live events. | 10% buyer-paid fee (or 3.0% + $0.99 organizer rate depending on region) | Free forever for free events (zero platform fees for free admission) |
+| **[TicketCo](https://ticketco.events/)** | Ticketing and event-commerce platform supporting ticket sales, access control, streaming, and event management. | 3.0%–5.5% + £0.30 per paid ticket sold | 14-day demo environment trial upon organizer onboarding |
+| **[Pretix Hosted](https://pretix.eu/)** | Managed hosting for the open-source pretix ticketing system, providing hosted event registration and ticketing without requiring self-managed infrastructure. | 2.5% per paid ticket sold (capped at €15 max per ticket; 2.0% for non-profits) | Free tier includes 500 free tickets/year (+1 free ticket per paid ticket sold; €0.50/ticket thereafter) |
 
 ## Open-Source GitHub Projects
 
 - **[pretix](https://github.com/pretix/pretix)**  
-  One of the strongest mature open-source ticketing platforms. Supports ticket shops, conferences, festivals, concerts, exhibitions, workshops, attendee management, payments, and extensive event-management workflows. The project describes itself as 100% free and open-source software, with most code under AGPLv3 plus additional license terms. :contentReference[oaicite:1]{index=1}
+  One of the strongest mature open-source ticketing platforms. Supports ticket shops, conferences, festivals, concerts, exhibitions, workshops, attendee management, payments, and extensive event-management workflows. The project describes itself as 100% free and open-source software, with most code under AGPLv3 plus additional license terms.
 
 - **[Hi.Events](https://github.com/HiEventsDev/hi.events)**  
-  Modern open-source event-management and ticket-selling platform. Supports free/paid/donation tickets, recurring and multi-date events, promo codes, capacity management, customizable ticket designs, QR-code check-in, refunds, analytics, affiliate tracking, webhooks, REST APIs, and self-hosting. It is licensed under AGPL-3.0 with additional terms. :contentReference[oaicite:2]{index=2}
+  Modern open-source event-management and ticket-selling platform. Supports free/paid/donation tickets, recurring and multi-date events, promo codes, capacity management, customizable ticket designs, QR-code check-in, refunds, analytics, affiliate tracking, webhooks, REST APIs, and self-hosting. It is licensed under AGPL-3.0 with additional terms.
 
 - **[Attendize](https://github.com/Attendize/Attendize)**  
-  Open-source ticket-selling and event-management platform built with Laravel. Includes event pages, attendee management, ticket customization, QR-code tickets, payment gateways, refunds, affiliate tracking, widgets, event statistics, and browser-based QR check-in. :contentReference[oaicite:3]{index=3}
+  Open-source ticket-selling and event-management platform built with Laravel. Includes event pages, attendee management, ticket customization, QR-code tickets, payment gateways, refunds, affiliate tracking, widgets, event statistics, and browser-based QR check-in.
 
 - **[Pretix Plugins](https://github.com/pretix)**  
   The pretix ecosystem contains numerous open-source plugins extending ticketing, payment, event, seating, check-in, and integration capabilities.
