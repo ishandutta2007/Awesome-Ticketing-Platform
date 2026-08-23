@@ -1,154 +1,213 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Awesome Terraform &amp; OpenTofu Automation Platforms Ecosystem" width="100%" />
-</p>
+# Awesome-Ticketing-Platform
 
-<p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Ticketing-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Ticketing-Platform?style=flat-square" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Ticketing-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Ticketing-Platform?style=flat-square" alt="Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Ticketing-Platform/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Ticketing-Platform?style=flat-square" alt="Issues"/></a> <a href="https://github.com/ishandutta2007/Awesome-Ticketing-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Ticketing-Platform?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
-</p>
+# Top Ticketing Platform Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Event Ticketing, Registration, Box Office, Attendee Management & Event Operations*  
+**Last updated: August 2026**
+
+This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Ticketing Platforms**. These tools help event organizers create events, sell tickets, manage registrations, process payments, issue digital tickets, manage attendees, operate box offices, handle check-in, and analyze ticket sales.
+
+**Examples** include Eventbrite, Ticket Tailor, Universe, Tito, TicketSpice, Humanitix, Yapsody, Billetto, Brown Paper Tickets, and ThunderTix.
+
+**Open-source emphasis**: This section is heavily expanded with open-source and self-hostable ticketing systems covering online ticket sales, event registration, QR-code check-in, attendee management, event discovery, box-office operations, payments, seating, and event analytics. **pretix**, **Hi.Events**, and **Attendize** are among the strongest dedicated open-source options. pretix is a mature open-source ticket shop used for conferences, festivals, concerts, exhibitions, workshops, and other events. Hi.Events provides a modern self-hosted ticketing and event-management stack with ticket sales, QR check-in, refunds, analytics, REST APIs, and embeddable widgets. :contentReference[oaicite:0]{index=0}
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites or project repositories.
+
+## Table of Contents
+
+- [SaaS/Hosted Platforms](#saashosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Additional Strong Open-Source Options](#additional-strong-open-source-options)
+- [Frameworks for Building Custom Ticketing Platforms](#frameworks-for-building-custom-ticketing-platforms)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Eventbrite](https://www.eventbrite.com/)**  
+  Major event-management and ticketing platform for creating events, selling tickets, handling registrations, marketing events, and managing attendees.
+
+- **[Ticket Tailor](https://www.tickettailor.com/)**  
+  Flexible online ticketing platform focused on direct ticket sales, customizable checkout, event pages, integrations, and attendee management.
+
+- **[Universe](https://www.universe.com/)**  
+  Event ticketing and registration platform supporting ticket sales, event discovery, reserved/general admission events, marketing, and event management.
+
+- **[Tito](https://ti.to/)**  
+  Event registration and ticketing platform particularly popular with conferences, technology events, workshops, and community events.
+
+- **[TicketSpice](https://www.ticketspice.com/)**  
+  Customizable event ticketing platform offering online ticket sales, event registration, box-office tools, discounts, seating, and attendee management.
+
+- **[Humanitix](https://humanitix.com/)**  
+  Online event ticketing platform supporting event creation, ticket sales, registration, attendee management, payments, and fundraising-oriented events.
+
+- **[Yapsody](https://www.yapsody.com/)**  
+  Event ticketing and box-office platform supporting reserved seating, online sales, venue management, event marketing, and ticket administration.
+
+- **[Billetto](https://billetto.com/)**  
+  Event ticketing and discovery platform for selling tickets, managing registrations, promoting events, and handling attendees.
+
+- **[Brown Paper Tickets](https://www.brownpapertickets.com/)**  
+  Ticketing and event-registration platform supporting online ticket sales, event pages, box-office operations, will-call, and event management.
+
+- **[ThunderTix](https://www.thundertix.com/)**  
+  Box-office and ticketing platform for theaters, performing arts organizations, attractions, venues, and events with reserved seating and event-management capabilities.
+
+- **[Ticketmaster](https://www.ticketmaster.com/)**  
+  Large-scale ticketing and live-entertainment platform supporting primary ticket sales, venue operations, event discovery, digital tickets, and access management.
+
+- **[SeatGeek](https://seatgeek.com/)**  
+  Ticket marketplace and event technology platform providing ticket discovery, digital ticketing, venue tools, and event-management technology.
+
+- **[DICE](https://dice.fm/)**  
+  Digital ticketing and event-discovery platform focused heavily on concerts, nightlife, festivals, and live entertainment.
+
+- **[Eventcube](https://www.eventcube.io/)**  
+  Event-ticketing platform providing customizable event pages, ticket sales, registration, memberships, and venue/event-management functionality.
+
+- **[TicketLeap](https://www.ticketleap.com/)**  
+  Online event-ticketing platform for event creation, ticket sales, registration, attendee management, and reporting.
+
+- **[TryBooking](https://www.trybooking.com/)**  
+  Online booking and ticketing platform supporting events, registrations, payments, seating, memberships, and attendee management.
+
+- **[Ticketbud](https://www.ticketbud.com/)**  
+  Event ticketing platform for creating events, selling tickets, processing payments, and managing attendees.
+
+- **[TicketSource](https://www.ticketsource.us/)**  
+  Online box-office and ticketing platform supporting event creation, seating, ticket sales, box-office operations, and attendee management.
+
+- **[TicketSocket](https://www.ticketsocket.com/)**  
+  Enterprise-oriented ticketing technology for events, venues, attractions, and organizations requiring branded ticketing infrastructure.
+
+- **[EventBookings](https://eventbookings.com/)**  
+  Event-management and ticketing platform for creating events, selling tickets, managing registrations, and collecting attendee information.
+
+- **[Eventzilla](https://www.eventzilla.net/)**  
+  Online event registration and ticketing platform supporting event pages, registration, payments, ticket sales, and attendee management.
+
+- **[RegFox](https://www.regfox.com/)**  
+  Event registration and ticketing platform with customizable registration forms, payments, ticketing, attendee management, and reporting.
+
+- **[Cvent](https://www.cvent.com/)**  
+  Enterprise event-management platform covering registration, ticketing/payment workflows, attendee management, event marketing, and onsite event operations.
+
+- **[Bizzabo](https://www.bizzabo.com/)**  
+  Event-management platform supporting registration, ticketing, attendee experiences, event websites, networking, and event analytics.
+
+- **[Swoogo](https://swoogo.events/)**  
+  Customizable event-registration platform supporting ticketing, attendee management, event websites, registration workflows, and analytics.
+
+- **[Whova](https://whova.com/)**  
+  Event-management platform combining registration, ticketing, attendee engagement, agendas, networking, and event applications.
+
+- **[Eventify](https://eventify.io/)**  
+  Event-management platform with registration, ticketing, event websites, mobile apps, attendee engagement, and event analytics.
+
+- **[TicketSocket](https://www.ticketsocket.com/)**  
+  White-label ticketing technology for organizations operating branded ticketing, event registration, and admission workflows.
+
+- **[SimpleTix](https://www.simpletix.com/)**  
+  Online ticketing platform for museums, attractions, venues, events, classes, and experiences with ticket sales, timed entry, and check-in.
+
+- **[Zeffy](https://www.zeffy.com/)**  
+  Ticketing and event-registration platform particularly aimed at nonprofits, supporting ticket sales, donations, registration, and fundraising.
+
+- **[Ticket Fairy](https://www.ticketfairy.com/)**  
+  Event ticketing and access-control platform for festivals, concerts, nightlife, and live events.
+
+- **[TicketCo](https://ticketco.events/)**  
+  Ticketing and event-commerce platform supporting ticket sales, access control, streaming, and event management.
+
+- **[Pretix Hosted](https://pretix.eu/)**  
+  Managed hosting for the open-source pretix ticketing system, providing hosted event registration and ticketing without requiring self-managed infrastructure.
+
+## Open-Source GitHub Projects
+
+- **[pretix](https://github.com/pretix/pretix)**  
+  One of the strongest mature open-source ticketing platforms. Supports ticket shops, conferences, festivals, concerts, exhibitions, workshops, attendee management, payments, and extensive event-management workflows. The project describes itself as 100% free and open-source software, with most code under AGPLv3 plus additional license terms. :contentReference[oaicite:1]{index=1}
+
+- **[Hi.Events](https://github.com/HiEventsDev/hi.events)**  
+  Modern open-source event-management and ticket-selling platform. Supports free/paid/donation tickets, recurring and multi-date events, promo codes, capacity management, customizable ticket designs, QR-code check-in, refunds, analytics, affiliate tracking, webhooks, REST APIs, and self-hosting. It is licensed under AGPL-3.0 with additional terms. :contentReference[oaicite:2]{index=2}
+
+- **[Attendize](https://github.com/Attendize/Attendize)**  
+  Open-source ticket-selling and event-management platform built with Laravel. Includes event pages, attendee management, ticket customization, QR-code tickets, payment gateways, refunds, affiliate tracking, widgets, event statistics, and browser-based QR check-in. :contentReference[oaicite:3]{index=3}
+
+- **[Pretix Plugins](https://github.com/pretix)**  
+  The pretix ecosystem contains numerous open-source plugins extending ticketing, payment, event, seating, check-in, and integration capabilities.
+
+- **[pretalx](https://github.com/pretalx/pretalx)**  
+  Open-source conference schedule and submission-management platform. Useful for conferences and community events where ticketing is combined with speaker, session, and schedule management.
+
+- **[Open Event Server](https://github.com/frab/open-event-server)**  
+  Open-source event-management infrastructure that can be used as a foundation for event creation, scheduling, registration, and attendee workflows.
+
+- **[frab](https://github.com/frab/frab)**  
+  Open-source conference planning and scheduling system supporting event schedules, speakers, sessions, and conference publishing.
+
+- **[Eventyay](https://github.com/fossasia/open-event-server)**  
+  Open-source event-management ecosystem derived from the FOSSASIA Open Event project, covering event creation, ticketing, registration, payments, and attendee management.
+
+- **[Open Event Frontend](https://github.com/fossasia/open-event-frontend)**  
+  Open-source web frontend for the FOSSASIA Open Event ecosystem, providing interfaces for event discovery, registration, ticketing, and event administration.
+
+- **[Open Event Organizer App](https://github.com/fossasia/open-event-organizer-app)**  
+  Open-source Android application for event organizers, providing mobile-oriented event-management and attendee workflows.
+
+- **[Open Event Attendee App](https://github.com/fossasia/open-event-attendee-android)**  
+  Open-source mobile event application for attendees, useful for event discovery, schedules, tickets, and event participation.
+
+- **[Pretalx](https://github.com/pretalx/pretalx)**  
+  Open-source event and conference management system focused on call-for-papers, speaker management, scheduling, and public event programs.
+
+- **[Eventyay](https://github.com/fossasia/open-event-server)**  
+  Open-source event platform suitable for building a broader self-hosted event registration and ticketing ecosystem.
+
+### Additional Strong Open-Source Options
+
+- **Open-source event registration systems** for forms, attendee records, confirmations, and registration workflows.
+- **Open-source ticket-selling platforms** for paid, free, donation, tiered, and promotional tickets.
+- **Open-source QR-code check-in systems** for admission scanning, access control, and attendance records.
+- **Open-source box-office systems** for venues, theaters, museums, festivals, and performing arts organizations.
+- **Open-source conference management platforms** for CFPs, speakers, schedules, sessions, and registrations.
+- **Open-source seating systems** for reserved seating, venue maps, sections, rows, and seat allocation.
+- **Open-source payment integrations** for Stripe, PayPal, bank transfers, and local payment processors.
+- **Open-source event discovery platforms** for searchable event catalogs and public event directories.
+- **Open-source membership systems** for recurring memberships, subscriptions, member tickets, and access privileges.
+- **Open-source access-control systems** for QR, barcode, NFC, RFID, and mobile admission.
+- **Open-source event analytics** for ticket sales, revenue, conversion rates, attendance, and campaign attribution.
+- **Open-source email/SMS systems** for confirmations, reminders, transactional notifications, and attendee communications.
+- **Open-source affiliate/referral systems** for tracking promoters, referral links, commissions, and ticket sales.
+- **Open-source CRM integrations** for synchronizing attendees with customer and marketing systems.
+- **Open-source livestream/event platforms** for hybrid events where digital participation is combined with physical ticketing.
+
+**Frameworks for building custom ticketing platforms**: Combine **pretix**, **Hi.Events**, or **Attendize** for the core ticketing layer; **PostgreSQL/MySQL** for transactional data; **Stripe/PayPal** integrations for payments; **Redis** for queues and caching; **QR/barcode libraries** for admission; and **Metabase/Grafana** for ticket-sales and attendance analytics. Add a frontend framework such as **React**, **Next.js**, or **Vue** for highly customized event pages and checkout experiences.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Prioritize genuinely open-source projects with an accessible repository and clearly documented license.
+5. For abandoned projects, clearly indicate their maintenance status rather than presenting them as actively maintained.
+6. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Ticketing platforms handle potentially sensitive attendee, payment, and event-access information and should be deployed with appropriate security controls.
+- **Open-source does not necessarily mean feature-equivalent to enterprise SaaS ticketing platforms.** Many projects are focused on specific parts of the event-management stack.
+- Verify the current license before using an open-source project commercially.
+- Payment processing, taxes, refunds, chargebacks, consumer protection, accessibility, and privacy requirements vary by jurisdiction.
+- QR-code, barcode, NFC, RFID, and other access-control systems should be tested carefully before being used for high-volume events.
+- SaaS capabilities, product names, ownership, pricing, and licensing models can change over time.
+- Event organizers should maintain appropriate backups, audit logs, fraud controls, payment security, and attendee-data protection.
 
 ---
 
-# 🚀 Awesome Terraform &amp; OpenTofu Automation Platforms (TACOs)
-
-> 🌐 **Curated List of SaaS Platforms & Open-Source Tools for Infrastructure as Code (IaC) Orchestration, PR Automation, Policy-as-Code, Remote State, Drift Detection, and GitOps Workflows.**
-
-**Last updated: August 2026** 📅
-
-This directory tracks the leading **SaaS platforms** and **open-source repositories** for **Terraform Automation &amp; OpenTofu Management** (often termed **TACOs** – *Terraform Automation and Collaboration Software*). These solutions orchestrate multi-cloud deployments, automate pull-request workflows, enforce compliance policies, manage remote states, provide continuous drift detection, and empower platform engineering teams.
-
----
-
-## 📑 Table of Contents
-
-- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
-- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
-- [🧩 Key Architecture &amp; Ecosystem Components](#-key-architecture--ecosystem-components)
-- [🤝 How to Contribute](#-how-to-contribute)
-- [📈 Star History](#-star-history)
-- [📜 Disclaimer &amp; License](#-disclaimer--license)
-
----
-
-## ☁️ SaaS / Hosted Platforms
-
-Below is a breakdown of prominent commercial and managed Terraform / OpenTofu automation platforms, sorted in descending order by company scale (valuation, revenue, or venture funding).
-
-| Platform | Company Size / Scale | Description | Starting Pricing | Free Tier Limits |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Terraform Cloud / HCP Terraform](https://www.hashicorp.com/products/terraform)** | 🏢 **~$6.4B Valuation** (IBM Acquisition; $583M+ Annual Revenue) | HashiCorp’s official managed platform for remote state, run orchestration, private registries, and team collaboration around Terraform. | Starts at **$0.10 / managed resource / month** (Essentials tier; Standard tier at $0.47 / resource / month) | **Free forever** for up to 500 managed resources, 1 concurrent run, unlimited users, and 1 policy set (up to 5 policies); includes $500 HCP trial credits for paid tiers. |
-| **[Spacelift](https://spacelift.io/)** | 🚀 **~$100M+ Est. Valuation** ($73.6M Total Funding; Series C) | Multi-IaC orchestration platform supporting Terraform, OpenTofu, Terragrunt, Pulumi, CloudFormation, Kubernetes, and Ansible with strong policy-as-code and stack dependencies. | Starts at **$20,000 / year** (Starter+ tier billed annually) | **Free forever** for up to 2 users and 1 public worker (1 concurrent run); 14-day free trial on paid features. |
-| **[env0 (env zero)](https://www.env0.com/)** | 💼 **~$42M Total Funding** (Series B, Backed by PayPal Ventures &amp; M12) | Multi-IaC management platform with FinOps visibility, supporting Terraform, OpenTofu, Terragrunt, Pulumi, and custom workflows. | Starts at **$1,500 / month** (Cloud Compass tier) | **Free forever** for up to 250 runs/month and 30 active environments; 14-day free trial available for advanced features. |
-| **[Firefly](https://www.firefly.ai/)** | 🦄 **$30M Total Funding** (Series A, Backed by SoftBank &amp; Vertex) | Cloud asset management and IaC platform that helps discover unmanaged assets, codify them, and remediate drift across multi-cloud environments. | Starts at **$2,499 / month** (Essential tier via AWS Marketplace, billed annually) | **Free forever** for up to 500 managed cloud resources / assets; 14-day free trial available for paid tiers. |
-| **[OpsLevel](https://www.opslevel.com/)** | 📊 **$22.2M Total Funding** (Series A, Backed by Bessemer Venture Partners) | Internal Developer Portal (IDP) and service catalog platform that integrates with Terraform workflows for service maturity, ownership, and GitOps tracking. | Starts at **$10,000 / year** (~$833 / month for up to 20 users / ~$25–$45 / developer / month) | **14 to 30-day free trial** / POC with full catalog and check integration access (no permanent free tier). |
-| **[Scalr](https://scalr.com/)** | 💡 **~$15.8M Est. Valuation** ($7.35M Total Funding) | Pure-play Terraform/OpenTofu TACO focused on hierarchical governance, OPA policies, remote operations, and predictable per-run pricing. | Starts at **$0.99 / run** (or **$99 / month** for 100 prepaid runs package) | **Free forever** for up to 50 runs/month, 5 concurrent runs, unlimited users, workspaces, and resources under management. |
-| **[Massdriver](https://www.massdriver.cloud/)** | ⚡ **$12.5M Total Funding** (Y Combinator Alum, Seed/Series A) | Platform engineering and infrastructure orchestration tool with visual Terraform modules and developer self-service automation. | Starts at **$999 / month for 15 seats** (Business tier billed annually) | **14 to 30-day free trial** with full platform and POC access (no permanent free tier). |
-| **[Digger](https://digger.dev/)** | 🔧 **$6.6M Total Funding** ($3.6M Seed Round) | IaC orchestration engine that runs Terraform/OpenTofu natively inside your existing CI (GitHub Actions, GitLab CI, etc.). | Starts at **$49 / user / month** (Digger Pro / OpenTaco, min. 5 seats; Enterprise from $3,000 / month) | **Free forever Community Edition** (100% open-source, runs in your CI with unlimited runs/resources); 14-day free trial for Pro. |
-| **[Brainboard](https://www.brainboard.co/)** | 🎨 **$1.55M Total Funding** (~$2.5M–$5M Est. Valuation) | Visual infrastructure-as-code design and automation platform that automatically generates, validates, and deploys Terraform architectures. | Starts at **$99 / user / month** (Pro plan) | **Free forever** for individual use (unlimited cloud architectures and Terraform code generation); 21-day free trial for Pro features. |
-| **[Atlantis](https://www.runatlantis.io/)** | 🌐 **Open-Source Community** (Linux Foundation / CNCF Ecosystem) | Self-hosted Terraform pull-request automation engine that teams run on Kubernetes/VMs as a managed service pattern. | **Free** (Open-Source / Self-Hosted) | **Free forever** (100% open-source under Apache 2.0; unlimited users, runs, and resources; self-hosted compute costs apply). |
-
----
-
-## 🛠️ Open-Source GitHub Projects
-
-Curated open-source projects for Terraform &amp; OpenTofu automation, drift management, testing, and policy enforcement, **ranked descending by GitHub Star Count** ⭐:
-
-1. **[OpenTofu](https://github.com/opentofu/opentofu)** [![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)  
-   ⚡ OpenTofu is a community-driven, open-source fork of Terraform managed under the Linux Foundation. Drop-in compatible with Terraform configurations, providers, and state files.
-
-2. **[Infracost](https://github.com/infracost/infracost)** [![GitHub stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
-   💰 Cloud cost estimates for Terraform, OpenTofu, and Terragrunt in pull requests. Helps engineering teams prevent cloud cost surprises before merging changes.
-
-3. **[OPA (Open Policy Agent)](https://github.com/open-policy-agent/opa)** [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)  
-   🛡️ General-purpose policy engine providing policy-as-code enforcement across the entire cloud-native stack, widely used in Terraform plan inspection and compliance gates.
-
-4. **[Atlantis](https://github.com/runatlantis/atlantis)** [![GitHub stars](https://img.shields.io/github/stars/runatlantis/atlantis?style=social&color=white)](https://github.com/runatlantis/atlantis/stargazers)  
-   🤖 The foundational open-source Terraform Pull Request Automation tool. Listens for VCS webhooks, runs `terraform plan` and `apply` via PR comments, and manages plan locks.
-
-5. **[Terragrunt](https://github.com/gruntwork-io/terragrunt)** [![GitHub stars](https://img.shields.io/github/stars/gruntwork-io/terragrunt?style=social&color=white)](https://github.com/gruntwork-io/terragrunt/stargazers)  
-   📦 Thin orchestration wrapper that provides extra tools for keeping Terraform configurations DRY, managing remote state, and orchestrating multi-module dependencies.
-
-6. **[Checkov](https://github.com/bridgecrewio/checkov)** [![GitHub stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social&color=white)](https://github.com/bridgecrewio/checkov/stargazers)  
-   🔒 Static analysis security scanner for Infrastructure as Code (Terraform, CloudFormation, Kubernetes, ARM, Bicep, Helm) with built-in compliance frameworks.
-
-7. **[tfsec](https://github.com/aquasecurity/tfsec)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/tfsec?style=social&color=white)](https://github.com/aquasecurity/tfsec/stargazers)  
-   🔍 Fast, developer-friendly security scanner for Terraform code that checks for security misconfigurations and best practices before provisioning.
-
-8. **[TFLint](https://github.com/terraform-linters/tflint)** [![GitHub stars](https://img.shields.io/github/stars/terraform-linters/tflint?style=social&color=white)](https://github.com/terraform-linters/tflint/stargazers)  
-   🧹 Pluggable Terraform linter that verifies provider-specific best practices, invalid instance types, syntax errors, and deprecated configurations.
-
-9. **[Terrascan](https://github.com/tenable/terrascan)** [![GitHub stars](https://img.shields.io/github/stars/tenable/terrascan?style=social&color=white)](https://github.com/tenable/terrascan/stargazers)  
-   🛡️ Static code analyzer powered by Open Policy Agent (OPA) to detect security compliance vulnerabilities across multi-cloud Terraform files.
-
-10. **[Digger (OpenTaco)](https://github.com/diggerhq/digger)** [![GitHub stars](https://img.shields.io/github/stars/diggerhq/digger?style=social&color=white)](https://github.com/diggerhq/digger/stargazers)  
-    ⚙️ CI-native IaC orchestrator that runs Terraform/OpenTofu directly inside your existing CI pipelines (GitHub Actions, GitLab CI) without third-party runner lock-in.
-
-11. **[pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform)** [![GitHub stars](https://img.shields.io/github/stars/antonbabenko/pre-commit-terraform?style=social&color=white)](https://github.com/antonbabenko/pre-commit-terraform/stargazers)  
-    🪝 Collection of git pre-commit hooks for Terraform formatting, documentation generation (terraform-docs), linting (tflint), and security scanning.
-
-12. **[Terramate](https://github.com/terramate-io/terramate)** [![GitHub stars](https://img.shields.io/github/stars/terramate-io/terramate?style=social&color=white)](https://github.com/terramate-io/terramate/stargazers)  
-    📐 IaC orchestration tool designed to manage multi-stack Terraform &amp; OpenTofu architectures with change detection, code generation, and parallel execution.
-
-13. **[Conftest](https://github.com/open-policy-agent/conftest)** [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/conftest?style=social&color=white)](https://github.com/open-policy-agent/conftest/stargazers)  
-    🧪 Utility for testing structured configuration data against Rego policies, widely applied to validate `terraform.tfplan.json` outputs in CI pipelines.
-
-14. **[driftctl](https://github.com/snyk/driftctl)** [![GitHub stars](https://img.shields.io/github/stars/snyk/driftctl?style=social&color=white)](https://github.com/snyk/driftctl/stargazers)  
-    🔍 CLI tool that tracks, measures, and alerts on infrastructure drift between real-world cloud assets and Terraform state files.
-
-15. **[Rover](https://github.com/im2nguyen/rover)** [![GitHub stars](https://img.shields.io/github/stars/im2nguyen/rover?style=social&color=white)](https://github.com/im2nguyen/rover/stargazers)  
-    🧭 Interactive visualizer for Terraform state and configuration files that parses plans and builds interactive dependency graphs.
-
-16. **[Blast Radius](https://github.com/200ok-solutions/blast-radius)** [![GitHub stars](https://img.shields.io/github/stars/200ok-solutions/blast-radius?style=social&color=white)](https://github.com/200ok-solutions/blast-radius/stargazers)  
-    💥 Interactive visualization tool that renders live dependency graphs and resource relationships from Terraform files.
-
-17. **[Tofu-Controller / Flux TF-Controller](https://github.com/flux-iac/tofu-controller)** [![GitHub stars](https://img.shields.io/github/stars/flux-iac/tofu-controller?style=social&color=white)](https://github.com/flux-iac/tofu-controller/stargazers)  
-    ☸️ GitOps controller for Kubernetes that reconciles Terraform &amp; OpenTofu resources continuously using the Flux GitOps toolkit.
-
-18. **[Terrateam](https://github.com/terrateamio/terrateam)** [![GitHub stars](https://img.shields.io/github/stars/terrateamio/terrateam?style=social&color=white)](https://github.com/terrateamio/terrateam/stargazers)  
-    🐙 Git-centric Terraform/OpenTofu/Terragrunt pull-request automation system supporting strict branch workflows and custom orchestration hooks.
-
-19. **[terraform-aws-atlantis](https://github.com/terraform-aws-modules/terraform-aws-atlantis)** [![GitHub stars](https://img.shields.io/github/stars/terraform-aws-modules/terraform-aws-atlantis?style=social&color=white)](https://github.com/terraform-aws-modules/terraform-aws-atlantis/stargazers)  
-    🏗️ Battle-tested Terraform module to deploy production Atlantis instances on AWS (ECS, Fargate, ALB, Route53, and IAM).
-
-20. **[Regula](https://github.com/fugue/regula)** [![GitHub stars](https://img.shields.io/github/stars/fugue/regula?style=social&color=white)](https://github.com/fugue/regula/stargazers)  
-    📋 Policy engine that checks Terraform, CloudFormation, and Kubernetes manifests for security and compliance rules against CIS Benchmarks.
-
----
-
-## 🧩 Key Architecture &amp; Ecosystem Components
-
-```mermaid
-flowchart LR
-    Dev["👨‍💻 Developer / Platform Team"] --> VCS["🔀 Version Control (GitHub / GitLab)"]
-    VCS --> CI["⚙️ Automation / Orchestrator\n(Atlantis / Digger / Spacelift / Scalr)"]
-    CI --> Policy["🛡️ Policy as Code\n(OPA / Checkov / Conftest)"]
-    CI --> FinOps["💰 FinOps Cost Analysis\n(Infracost)"]
-    CI --> Engine["⚡ IaC Engine\n(OpenTofu / Terraform / Terragrunt)"]
-    Engine --> Cloud["☁️ Multi-Cloud Providers\n(AWS / Azure / GCP / K8s)"]
-    Cloud --> Drift["🔍 Drift Detection\n(Firefly / driftctl)"]
-    Drift -.->|Drift Alert / Codification| Dev
-```
-
----
-
-## 🤝 How to Contribute
-
-1. 🍴 **Fork** this repository.
-2. 🌿 **Create a feature branch**: `git checkout -b add-iac-tool`.
-3. 📝 **Add or update entries** in `README.md` keeping the tabular/ranked formats and exact links.
-4. 🚀 **Submit a Pull Request** with a brief summary of the added platform or open-source tool.
-
-⭐ **Star this repository** if you find this ecosystem directory valuable for your DevOps and cloud engineering journeys!
-
----
-
-## 📈 Star History
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Ticketing-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Ticketing-Platform&type=date&legend=top-left)
-
----
-
-## 📜 Disclaimer &amp; License
-
-- 🛡️ **Community Curated**: This list is independently maintained by the cloud community. Product names, logos, and trademarks belong to their respective owners.
-- ⚠️ **Operational Safety**: Terraform automation tools execute infrastructure mutations that directly impact live cloud environments and costs. Ensure least-privilege IAM policies, automated testing, and state locking are enforced.
-- 📄 Distributed under the **MIT License**.
+**Made for event organizers, venues, theaters, festivals, conferences, nonprofits, promoters, box-office teams, and developers building open event infrastructure.**  
+Let's make event ticketing more open, customizable, self-hostable, and accessible.
